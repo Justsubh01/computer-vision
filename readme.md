@@ -8,7 +8,7 @@
 
 * For this project i used [Intel Image Classification](https://www.kaggle.com/puneet6060/intel-image-classification) dataset, which contains image data divided in 3 sub-folder `seg_pred`,`seg_test` and `seg_train`.
 
-* This 6 class classification project where i have 6 different classes of images that is   `mountain`, `street`,`buildings`, `sea`, `forest`, `glacier`.
+* This is a 6 class classification project where i have 6 different classes of images that is   `mountain`, `street`,`buildings`, `sea`, `forest`, `glacier`.
 
 * For further explanation please go to project folder and for code implementation visit my [kaggle notebook](https://www.kaggle.com/billiemage/pytorch-use-pretrained-model).
 
