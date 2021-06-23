@@ -12,6 +12,8 @@
 
 * For further explanation please go to project folder and for code implementation visit my [kaggle notebook](https://www.kaggle.com/billiemage/pytorch-use-pretrained-model).
 
+---
+
 ### 2. Style Transfer with Deep Neural Networks.
 
 
@@ -22,6 +24,8 @@
 * Neural style transfer is an optimization technique used to take three images, a content image, a style reference image (such as an artwork by a famous painter), and the input image you want to style — and blend them together such that the input image is transformed to look like the content image, but “painted” in the style of the style image.
 
 * For detailed explanation please visit my [kaggle notebook](https://www.kaggle.com/billiemage/style-transfer-with-deep-neural-networks).
+
+---
 
 ## 3. Faster-rcnn for multiclass object detection.
 
