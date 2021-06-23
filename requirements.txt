@@ -1,0 +1,10 @@
+torch==1.7.0
+torchvision==0.8.1
+OpenCV==4.5.1
+sklearn==0.24.1
+albumentations==0.5.2
+Pillow==8.1.2
+pandas==1.2.3
+numpy==1.20.1
+matplotlib==3.4.1
+requests==2.25.1
