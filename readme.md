@@ -25,6 +25,8 @@
 
 * For detailed explanation please visit my [kaggle notebook](https://www.kaggle.com/billiemage/style-transfer-with-deep-neural-networks).
 
+* UI ready project:- [click](https://github.com/Justsubh01/StyleTransfer)
+
 ---
 
 ## 3. Faster-rcnn for multiclass object detection.
@@ -39,3 +41,19 @@
 From the RoI feature vector, we use a softmax layer to predict the class of the proposed region and also the offset values for the bounding box.
 
 * For this project i used [PASCAL VOC 2012](https://www.kaggle.com/huanghanchina/pascal-voc-2012) dataset, where we have annotations(metadata of images in the xml file) and sets of images. We have 20 different objects of labels and per image can contain 0 to 20 different objects.
+
+---
+
+## 4. Image Similarity
+
+![image](images/similarity.jpg)
+
+This project is based on research paper name [Classification is a Strong Baseline for Deep Metric Learning](https://arxiv.org/abs/1811.12649?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529).This paper shows the effectiveness of classification based approaches on image retrieval datasets.
+
+### **Points to note:**
+
+* For effective training we make sure that every mini batch contains same amount of classes for per batch, in case of `CUB-200` ,we will use 75 image per mini batch with 25 images for per classes(3 classes per batch).
+
+* We will use custom `NormSoftmax` loss function as author of the paper suggests.
+* We will use `Layer normalization` just before softmax activation layer.
+
